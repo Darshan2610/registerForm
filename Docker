@@ -11,3 +11,9 @@ docker tag do:latest username/firstIamge
 docker images
 
 docker push username/firstImage
+
+
+FROM node:alpine
+COPY . /app
+WORKDIR /app
+CMD node app.js   (Dockerfile)

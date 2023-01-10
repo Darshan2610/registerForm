@@ -1,0 +1,13 @@
+docker build -t folderNmae .
+
+docker image ls
+
+docker login
+
+docker image ls
+
+docker tag do:latest username/firstIamge
+
+docker images
+
+docker push username/firstImage
